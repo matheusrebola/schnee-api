@@ -1,4 +1,4 @@
-package com.schnee;
+package io.schnee;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

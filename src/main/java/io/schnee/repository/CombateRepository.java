@@ -4,8 +4,8 @@ import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import io.schnee.entity.Jogador;
+import io.schnee.entity.Combate;
 
-public interface JogadorRepository extends JpaRepository<Jogador, UUID>{
+public interface CombateRepository extends JpaRepository<Combate, UUID>{
 
 }

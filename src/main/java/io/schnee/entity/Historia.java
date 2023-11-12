@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="")
+@Table(name="tb_historia")
 public class Historia {
 	@Id
 	private UUID id;

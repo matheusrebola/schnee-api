@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="")
+@Table(name="tb_quest")
 public class Quest {
 	@Id
 	private UUID id;

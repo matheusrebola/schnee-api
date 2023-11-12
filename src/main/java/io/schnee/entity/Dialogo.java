@@ -1,5 +1,14 @@
 package io.schnee.entity;
 
-public class Dialogo {
+import java.util.UUID;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="")
+public class Dialogo {
+	@Id
+	private UUID id;
 }

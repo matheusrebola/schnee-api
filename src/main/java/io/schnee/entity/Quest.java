@@ -1,5 +1,14 @@
 package io.schnee.entity;
 
-public class Quest {
+import java.util.UUID;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="")
+public class Quest {
+	@Id
+	private UUID id;
 }
